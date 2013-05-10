@@ -54,7 +54,7 @@
         <activity android:name="LoadingActivity" android:theme="@style/MyDialogStyle" />             
         <activity android:name="MainTopRightDialog" android:theme="@style/MyDialogStyleTop" /> 
     </application>
-    <uses-permission android:name="android.permission.CAMERA" />
+   <!-- <uses-permission android:name="android.permission.CAMERA" />-->
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
