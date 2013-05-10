@@ -65,7 +65,7 @@ public class DataUtil {
 		URL url = new URL(ConstantUtil.URL);
 		HttpURLConnection conn = (HttpURLConnection)url.openConnection();
 		conn.setRequestMethod("POST");
-		conn.setConnectTimeout(5 * 1000);
+		conn.setConnectTimeout(10 * 1000);
 		conn.setReadTimeout(10*1000);
 		conn.setDoOutput(true);//如果通过post提交数据，必须设置允许对外输出数据
 		conn.setDoInput(true);
