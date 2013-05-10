@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp" 
+    >
+     <TextView
+        android:id="@+id/teacher_class_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/day_of_week_id" 
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="@color/qqblue"
+        android:layout_centerVertical="true"
+        />
+    <RelativeLayout 
+        android:layout_toRightOf="@id/day_of_week_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            >
+            <TextView 
+                android:id="@+id/teacher_and_class"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/qqblue"
+                />
+            <TextView 
+                android:id="@+id/time_and_address"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/qqblue"
+                />
+        </LinearLayout>
+        <Button
+        android:id="@+id/is_add_delete_setting"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="0dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_style_one_pressed"
+        android:text="增加"
+        android:textSize="5pt" />
+    </RelativeLayout>
+    <!-- <TextView
+        android:id="@+id/teacher_class_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/teacher_class_content"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textColor="@color/qqblue"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/is_add_delete_setting"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="0dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_style_one_pressed"
+        android:text="增加"
+        android:textSize="5pt" /> -->
+
+</RelativeLayout>

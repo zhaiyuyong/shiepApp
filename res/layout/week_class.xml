@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/chat_bg_default"
+    android:orientation="vertical" >
+    <RelativeLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_vertical"  >
+  			<Button
+            	android:id="@+id/login_reback_btn"
+            	android:layout_width="70dp"
+            	android:layout_height="wrap_content"
+            	android:layout_centerVertical="true"
+            	android:text="返回"
+            	android:textSize="14sp"
+            	android:textColor="#fff"
+            	android:onClick="btn_back"
+           		android:background="@drawable/title_btn_back"/>  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="一周课程"
+        		android:layout_centerInParent="true"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" /> 
+			      
+		</RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbarStyle="outsideOverlay" >
+
+        <LinearLayout
+            android:id="@+id/class_linear_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/btn_style_four_focused"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="10pt"
+                    android:layout_height="15pt"
+                    android:src="@drawable/ic_launcher" />
+
+                <View
+                    android:layout_width="10pt"
+                    android:layout_height="2dip"
+                    android:background="@drawable/tr_fengexian1" />
+
+                <TextView
+                    android:layout_width="10pt"
+                    android:layout_height="15pt"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="10pt"
+                    android:layout_height="2dip"
+                    android:background="@drawable/tr_fengexian1" />
+
+                <TextView
+                    android:layout_width="10pt"
+                    android:layout_height="15pt"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="10pt"
+                    android:layout_height="2dip"
+                    android:background="@drawable/tr_fengexian1" />
+
+                <TextView
+                    android:layout_width="10pt"
+                    android:layout_height="15pt"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="10pt"
+                    android:layout_height="2dip"
+                    android:background="@drawable/tr_fengexian1" />
+
+                <TextView
+                    android:layout_width="10pt"
+                    android:layout_height="15pt"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="10pt"
+                    android:layout_height="2dip"
+                    android:background="@drawable/tr_fengexian1" />
+
+                <TextView
+                    android:layout_width="10pt"
+                    android:layout_height="15pt"
+                    android:gravity="center"
+                    android:text="5"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="10pt"
+                    android:layout_height="2dip"
+                    android:background="@drawable/tr_fengexian1" />
+
+                <TextView
+                    android:layout_width="10pt"
+                    android:layout_height="15pt"
+                    android:gravity="center"
+                    android:text="6"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="10pt"
+                    android:layout_height="2dip"
+                    android:background="@drawable/tr_fengexian1" />
+
+                <TextView
+                    android:layout_width="10pt"
+                    android:layout_height="15pt"
+                    android:gravity="center"
+                    android:text="7"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="10pt"
+                    android:layout_height="2dip"
+                    android:background="@drawable/tr_fengexian1" />
+
+                <TextView
+                    android:layout_width="10pt"
+                    android:layout_height="15pt"
+                    android:gravity="center"
+                    android:text="8"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="10pt"
+                    android:layout_height="2dip"
+                    android:background="@drawable/tr_fengexian1" />
+
+                <TextView
+                    android:layout_width="10pt"
+                    android:layout_height="15pt"
+                    android:gravity="center"
+                    android:text="9"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="10pt"
+                    android:layout_height="2dip"
+                    android:background="@drawable/tr_fengexian1" />
+
+                <TextView
+                    android:layout_width="10pt"
+                    android:layout_height="15pt"
+                    android:gravity="center"
+                    android:text="10"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="10pt"
+                    android:layout_height="2dip"
+                    android:background="@drawable/tr_fengexian1" />
+
+                <TextView
+                    android:layout_width="10pt"
+                    android:layout_height="15pt"
+                    android:gravity="center"
+                    android:text="11"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/class_0_0"
+                    android:layout_width="60px"
+                    android:layout_height="16pt"
+                    android:gravity="center"
+                    android:text="日" />
+
+                <TextView
+                    android:id="@+id/class_0_1"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                    android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="高数" />
+
+                <TextView
+                    android:id="@+id/class_0_2"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="C++" />
+
+                <TextView
+                    android:id="@+id/class_0_3"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="java" />
+
+                <TextView
+                    android:id="@+id/class_0_4"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                    android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="离散数学离散数学离散数学离散数学离散数学" />
+
+                <TextView
+                    android:id="@+id/class_0_5"
+                    android:layout_width="60px"
+                    android:layout_height="48pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="选修课" />
+            </LinearLayout>
+            
+            
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/class_1_0"
+                    android:layout_width="60px"
+                    android:layout_height="16pt"
+                    android:gravity="center"
+                    android:text="一" />
+
+                <TextView
+                    android:id="@+id/class_1_1"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="高数" />
+
+                <TextView
+                    android:id="@+id/class_1_2"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="C++" />
+
+                <TextView
+                    android:id="@+id/class_1_3"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="java" />
+
+                <TextView
+                    android:id="@+id/class_1_4"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="离散数学" />
+
+                <TextView
+                    android:id="@+id/class_1_5"
+                    android:layout_width="60px"
+                    android:layout_height="48pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="选修课" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/class_2_0"
+                    android:layout_width="60px"
+                    android:layout_height="16pt"
+                    android:gravity="center"
+                    android:text="二" />
+
+                <TextView
+                    android:id="@+id/class_2_1"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="高数" />
+
+                <TextView
+                    android:id="@+id/class_2_2"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="C++" />
+
+                <TextView
+                    android:id="@+id/class_2_3"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="java" />
+
+                <TextView
+                    android:id="@+id/class_2_4"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="离散数学" />
+
+                <TextView
+                    android:id="@+id/class_2_5"
+                    android:layout_width="60px"
+                    android:layout_height="48pt"
+                    android:background="@drawable/btn_style_four_focused"
+                    android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="选修课" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/class_3_0"
+                    android:layout_width="60px"
+                    android:layout_height="16pt"
+                    android:gravity="center"
+                    android:text="三" />
+
+                <TextView
+                    android:id="@+id/class_3_1"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="高数" />
+
+                <TextView
+                    android:id="@+id/class_3_2"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="C++" />
+
+                <TextView
+                    android:id="@+id/class_3_3"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="java" />
+
+                <TextView
+                    android:id="@+id/class_3_4"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="离散数学" />
+
+                <TextView
+                    android:id="@+id/class_3_5"
+                    android:layout_width="60px"
+                    android:layout_height="48pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="选修课" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/class_4_0"
+                    android:layout_width="60px"
+                    android:layout_height="16pt"
+                    android:gravity="center"
+                    android:text="四" />
+
+                <TextView
+                    android:id="@+id/class_4_1"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="高数" />
+
+                <TextView
+                    android:id="@+id/class_4_2"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="C++" />
+
+                <TextView
+                    android:id="@+id/class_4_3"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="java" />
+
+                <TextView
+                    android:id="@+id/class_4_4"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="离散数学" />
+
+                <TextView
+                    android:id="@+id/class_4_5"
+                    android:layout_width="60px"
+                    android:layout_height="48pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="选修课" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/class_5_0"
+                    android:layout_width="60px"
+                    android:layout_height="16pt"
+                    android:gravity="center"
+                    android:text="五" />
+
+                <TextView
+                    android:id="@+id/class_5_1"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="高数" />
+
+                <TextView
+                    android:id="@+id/class_5_2"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="C++" />
+
+                <TextView
+                    android:id="@+id/class_5_3"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="java" />
+
+                <TextView
+                    android:id="@+id/class_5_4"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="离散数学" />
+
+                <TextView
+                    android:id="@+id/class_5_5"
+                    android:layout_width="60px"
+                    android:layout_height="48pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="选修课" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/class_6_0"
+                    android:layout_width="60px"
+                    android:layout_height="16pt"
+                    android:gravity="center"
+                    android:text="六" />
+
+                <TextView
+                    android:id="@+id/class_6_1"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="高数" />
+
+                <TextView
+                    android:id="@+id/class_6_2"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="C++" />
+
+                <TextView
+                    android:id="@+id/class_6_3"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="java" />
+
+                <TextView
+                    android:id="@+id/class_6_4"
+                    android:layout_width="60px"
+                    android:layout_height="32pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="离散数学" />
+
+                <TextView
+                    android:id="@+id/class_6_5"
+                    android:layout_width="60px"
+                    android:layout_height="48pt"
+                    android:background="@drawable/btn_style_four_focused"
+                     android:gravity="top"
+                    android:textSize="4pt"
+                    android:textColor="@color/qqblue"
+                    android:text="选修课" />
+            </LinearLayout>
+            
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

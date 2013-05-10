@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     		android:id="@+id/today_item_layout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/mm_listitem"
+           
+             >
+            
+            <TextView
+                android:id="@+id/textView_number"
+                android:layout_width="55dp"
+		        android:layout_height="55dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                 />
+
+            <TextView
+                android:id="@+id/textView_className"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/textView_number"
+                android:padding="7dp"
+                android:layout_centerVertical="true"
+                android:textColor="#000" />
+            <TextView
+                android:id="@+id/textView_teacherName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="7dp"
+                android:layout_centerVertical="true"
+                android:textColor="#666" />
+             <TextView
+                android:id="@+id/textView_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/textView_number"
+                android:layout_marginLeft="70dp"
+                android:padding="7dp"
+                android:textColor="#666" />
+
+            
+            
+        </RelativeLayout>

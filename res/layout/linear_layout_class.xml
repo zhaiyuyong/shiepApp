@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_div_contraer"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/class_0"
+        android:layout_width="60px"
+        android:layout_height="16pt"
+        android:gravity="center"
+        android:text="日" />
+
+    <TextView
+        android:id="@+id/class_1"
+        android:layout_width="60px"
+        android:layout_height="32pt"
+        android:background="@drawable/btn_style_four_focused"
+        android:gravity="center"
+        android:text="高数" />
+
+    <TextView
+        android:id="@+id/class_2"
+        android:layout_width="60px"
+        android:layout_height="32pt"
+        android:background="@drawable/btn_style_four_focused"
+        android:gravity="center"
+        android:text="C++" />
+
+    <TextView
+        android:id="@+id/class_3"
+        android:layout_width="60px"
+        android:layout_height="32pt"
+        android:background="@drawable/btn_style_four_focused"
+        android:gravity="center"
+        android:text="java" />
+
+    <TextView
+        android:id="@+id/class_4"
+        android:layout_width="60px"
+        android:layout_height="32pt"
+        android:background="@drawable/btn_style_four_focused"
+        android:gravity="center"
+        android:text="离散数学" />
+
+    <TextView
+        android:id="@+id/class_5"
+        android:layout_width="60px"
+        android:layout_height="48pt"
+        android:background="@drawable/btn_style_four_focused"
+        android:gravity="center"
+        android:text="选修课" />
+
+</LinearLayout>
